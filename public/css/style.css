@@ -59,7 +59,6 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  background-color: aqua;
 }
 
 .footer {
@@ -74,7 +73,7 @@ body {
   filter: invert(1);
 }
 .footer__container__link {
-  margin: 0 1 9px 20px;
+  margin: 0 0 9px 20px;
   display: flex;
   flex-direction: row;
   text-decoration: none;
