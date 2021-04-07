@@ -1,0 +1,32 @@
+.footer{
+    background-color: $footer-price;
+    padding-bottom: 37px;
+    &__logo{
+        fill: white;
+        height: 18px;
+        width: 100px;
+        margin: 20px 0 20px 20px;
+        filter: invert(1);
+    }
+    &__container{
+        &__link{
+            margin: 0 1 9px 20px;
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            color: white;
+            align-items: center;
+            &__utensils{
+                font-size: 0.85em;
+                margin-right: 12px;
+            }
+            &__helping{
+                font-size: 0.75em;
+                margin-right: 8px;
+            }
+            &__byline{
+                margin: 0;
+            }
+        }
+    }
+}

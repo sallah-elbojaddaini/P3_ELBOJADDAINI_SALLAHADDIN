@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="public/css/prefixed/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+	<title>ohmyfood</title>
+</head>
+
+<body>
+	<div class="loader">
+		<div class="loader__container">
+			<p class="loader__container__title">loading...</p>
+			<div class="loader__container__container2">
+				<div class="loader__container__container2__spinner"></div>
+				<i class="fas fa-utensils loader__container__container2__utensils"></i>
+			</div>
+		</div>
+	</div>
+	<div class="page">
+		<header class="heading">
+			<div class="heading__logo">
+				<img class="heading__logo--size" src="pictures/ohmyfood.png" alt="logo">
+			</div>
+		</header>
+		<section>
+			<div class="presentation">
+				<div class="presentation__map">
+					<i class="fas fa-map-marker-alt presentation__map__marker"></i>
+					<input class="presentation__map__search " type="text" name="texte" value="Paris, Belleville">
+				</div>
+				<div class="presentation__text">
+					<h1 class="presentation__text__title">Réservez le menu qui vous convient</h1>
+					<p class="presentation__text__byline">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+					<a class="presentation__text__btn" href="#restaurant__title">Explorer nos restaurants</a>
+				</div>
+			</div>
+			<article class="operation">
+				<h2 class="operation__title">Fonctionnement</h2>
+				<div class="operation__container">
+					<div class="operation__container__container2">
+						<p class="operation__container__container2__number">1</p>
+						<div class="operation__container__container2__button">
+							<i class="fas fa-mobile-alt operation__container__container2__button--margin1"></i>
+							<p>Choisissez un restaurant</p>
+						</div>
+					</div>
+					<div class="operation__container__container2">
+						<p class="operation__container__container2__number">2</p>
+						<div class="operation__container__container2__button">
+							<i class="fas fa-list operation__container__container2__button--margin2"></i>
+							<p>Composez votre menu</p>
+						</div>
+					</div>
+					<div class="operation__container__container2">
+						<p class="operation__container__container2__number">3</p>
+						<div class="operation__container__container2__button2">
+							<i class="fas fa-store operation__container__container2__button2--margin3"></i>
+							<p>Dégustez au restaurant</p>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="restaurant">
+				<h2 class="restaurant__title">Restaurants</h2>
+				<div class="restaurant__container">
+					<a class="restaurant__container__link" href="palette.html">
+						<figure class="restaurant__container__link__fig">
+							<img class="restaurant__container__link__fig__img" src="pictures/palette.jpg" alt="La palette du goût">
+							<p class="restaurant__container__link__fig__new">Nouveau</p>
+							<figcaption class="restaurant__container__link__fig__figcaption">
+								<div class="restaurant__container__link__fig__figcaption__container">
+									<h3 class="restaurant__container__link__fig__figcaption__container__title">La palette du goût</h3>
+									<p class="restaurant__container__link__fig__figcaption__container__byline">Ménilmontant</p>
+								</div>
+								<div class="restaurant__container__link__fig__figcaption__container2">
+									<i class="far fa-heart restaurant__container__link__fig__figcaption__container2__heart"></i>
+								</div>
+							</figcaption>
+						</figure>
+					</a>
+					<a class="restaurant__container__link" href="note.html">
+						<figure class="restaurant__container__link__fig">
+							<img class="restaurant__container__link__fig__img" src="pictures/note.jpg" alt="La note enchantée">
+							<p class="restaurant__container__link__fig__new">Nouveau</p>
+							<figcaption class="restaurant__container__link__fig__figcaption">
+								<div class="restaurant__container__link__fig__figcaption__container">
+									<h3 class="restaurant__container__link__fig__figcaption__container__title">La note enchantée</h3>
+									<p class="restaurant__container__link__fig__figcaption__container__byline">Charonne</p>
+								</div>
+								<div class="restaurant__container__link__fig__figcaption__container2">
+									<i class="far fa-heart restaurant__container__link__fig__figcaption__container2__heart"></i>
+								</div>
+							</figcaption>
+						</figure>
+					</a>
+					<a class="restaurant__container__link" href="francaise.html">
+						<figure class="restaurant__container__link__fig">
+							<img class="restaurant__container__link__fig__img" src="pictures/francaise.jpg" alt="&Agrave; la française">
+							<figcaption class="restaurant__container__link__fig__figcaption">
+								<div class="restaurant__container__link__fig__figcaption__container">
+									<h3 class="restaurant__container__link__fig__figcaption__container__title">&Agrave; la française</h3>
+									<p class="restaurant__container__link__fig__figcaption__container__byline">Cité Rouge</p>
+								</div>
+								<div class="restaurant__container__link__fig__figcaption__container2">
+									<i class="far fa-heart restaurant__container__link__fig__figcaption__container2__heart"></i>
+								</div>
+							</figcaption>
+						</figure>
+					</a>
+					<a class="restaurant__container__link" href="delice.html">
+						<figure class="restaurant__container__link__fig">
+							<img class="restaurant__container__link__fig__img" src="pictures/delice.jpg" alt="Le délice des sens">
+							<figcaption class="restaurant__container__link__fig__figcaption">
+								<div class="restaurant__container__link__fig__figcaption__container">
+									<h3 class="restaurant__container__link__fig__figcaption__container__title">Le délice des sens</h3>
+									<p class="restaurant__container__link__fig__figcaption__container__byline">Folie-Méricourt</p>
+								</div>
+								<div class="restaurant__container__link__fig__figcaption__container2">
+									<i class="far fa-heart restaurant__container__link__fig__figcaption__container2__heart"></i>
+								</div>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</article>
+		</section>
+		<footer class="footer">
+			<img class="footer__logo" src="pictures/ohmyfood.png" alt="logo">
+			<div class="footer__container">
+				<a href="#" class="footer__container__link">
+					<i class="fas fa-utensils footer__container__link__utensils"></i>
+					<p class="footer__container__link__byline">Proposer un restaurant</p>
+				</a>
+				<a href="#" class="footer__container__link">
+					<i class="fas fa-hands-helping footer__container__link__helping"></i>
+					<p class="footer__container__link__byline">Devenir partenaire</p>
+				</a>
+				<a href="#" class="footer__container__link">Mentions légales</a>
+				<a href="mailto:ohmyfood@email.com" class="footer__container__link">Contact</a>
+		</div>
+		</footer>
+	</div>
+</body>
+</html>

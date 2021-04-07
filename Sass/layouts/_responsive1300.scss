@@ -1,0 +1,127 @@
+@media screen and (min-width:1201px){
+    body{
+        background:linear-gradient(to left ,$tertiary 0%,$back-sec 5%,$back-sec 95%,$tertiary 100%);
+    }
+    .heading__logo{
+        margin: 20px 0;
+        &--size{
+            width: 246px;
+            height: 43px;
+        }
+    }
+    .presentation{
+        &__map{
+            background-color: transparent;
+            box-shadow: none;
+            width: 15%;
+            margin-left: 42%;
+            padding-left: 20px;
+            &:hover{
+                background-color: $back-map;
+                border-radius: 1em;
+            }
+            &:hover &__search{
+                background-color: $back-map;
+            }
+            &__marker{
+                padding-left: 20px;
+            }
+            &__search{
+                background-color: transparent;
+            }
+        }
+        &__text{
+            background-color: transparent;
+            &__btn{
+                margin-top: 40px;
+            }
+        }
+    }
+    .operation{
+        margin: 0;
+        &__title{
+            text-align: center;
+        }
+        &__container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 0px 11%;
+            &__container2{
+                width: 25%;
+                &__button{
+                    background-color: $back-sec;
+                    padding-right: 10px;
+                }
+                &__button2{
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+    .restaurant{
+        margin-left: 0;
+        &__title{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 100%;
+            &__link{
+                width: 35%;
+                margin:0 0 40px 35px;
+                &__fig{
+                    height: 297px;
+                    background-color: $back-sec;
+                    &__img{
+                        height: 220px;
+                    }
+                }
+            }
+        }
+    }
+    .section{
+        width: 100%;
+        background-color: transparent;
+        &__img{
+            width: 50%;
+            margin-left: 25%;
+            border-radius: 1em;
+        }
+        &__container{
+            width: 50%;
+            margin-left: 25%;
+            border-radius: 0 0 1em 1em;
+            box-shadow: 3px 5px 5px $box-shadox;
+            padding-bottom: 10px;
+        }
+        &__menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 40px;
+            &__article{
+                width: 30%;
+            }
+        }
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        &__logo{
+            width: 150px;
+            height: 30px;
+        }
+        &__container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+}

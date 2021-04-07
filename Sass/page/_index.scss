@@ -1,0 +1,153 @@
+.page{
+    opacity: 1;
+    animation: page-visibility 10ms ease-in 3000ms both ;
+    max-height: 100%;
+}
+.presentation{
+    &__map{
+        height: 50px;
+        background-color: $back-map;
+        box-shadow:inset 0px 3px 2px #cfcfcf;
+        padding-left: 60px;
+        @include head;
+        &:hover{
+            background: darken($color: $back-map, $amount: 10%);
+        }
+        &:hover &__search{
+            background: darken($color: $back-map, $amount: 10%);
+        }
+        &__marker{
+            margin-right: 14px;
+            padding-bottom: 6px;
+        }
+        &__search{
+            border: none;
+            border-width: 0px;
+            background-color: $back-map;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        &__search:focus{
+            outline: none;
+        }
+    }
+    &__text{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        background-color: $back-sec;
+        height: 287px;
+        &__title{
+            display: flex;
+            justify-content: center;
+            width: 61.1%;
+            margin:0 0 20px 19.45%;
+            padding-top: 38px;
+        }
+        &__byline{
+            margin:0 0 30px 0;
+            font-weight: 100;
+            font-size: 1.2em;
+            opacity: 0.55;
+        }
+        &__btn{
+            @include btn2;
+        }
+    }
+}
+.operation{
+    margin-left: 20px;
+    &__title{
+        margin-bottom: 30px;
+    }
+    &__container{
+        flex-direction: column;
+        &__container2{
+            position: relative;
+            width: 89.3%;
+            display: flex;
+            flex-direction: row;
+            &__number{
+                color: white;
+                display: flex;
+                position: absolute;
+                top: 8px;
+                left: -2px;
+                border-radius: 100%;
+                background-color: $primary;
+                width: 24px;
+                height: 24px;
+                justify-content: center;
+                align-items: center;
+            }
+            &__button{
+                @include btn;
+                &--margin1{
+                    margin-right: 29px;
+                    opacity: 0.55;
+                }
+                &--margin2{
+                    margin-right: 23px;
+                    opacity: 0.55;
+                }
+            }
+            &__button2{
+                @include btn;
+                background-color: lighten($color: $primary, $amount: 37%);
+                &--margin3{
+                    margin-right: 20px;
+                    color: $primary;
+                } 
+            }
+        }
+    }
+}
+.restaurant{
+    flex-direction: column;
+    margin-left: 20px;
+    padding-bottom: 46px;
+    &__container{
+        &__link{
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            &__fig{
+                @include index-thumbnail;
+                &__img{
+                    @include index-picture;
+                }
+                &__new{
+                    @include new;
+                }
+                &__figcaption{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    height: 30.7%;
+                    
+                    &__container{
+                        margin-left: 20px;
+                        height: 100%;
+                        align-items: center;
+                        &__title{
+                            margin: 15px 0 7px 0;
+                            font-size: 1em;
+                        }
+                        &__byline{
+                            margin: 0;
+                        }
+                    }
+                    &__container2{
+                        padding-bottom: 4%;
+                        &__heart{
+                            @include full-hearth;
+                            font-size: 21px;
+                            margin-right: 14px;                        
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

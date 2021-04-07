@@ -1,0 +1,22 @@
+
+@mixin head{
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     &--size{
+        height: 29px;
+        width: 164px;
+    }
+}
+.heading{
+    &__arrow{
+        transform: translateX(-64px);
+        color: $footer-price;
+        font-size: 1.1em;
+    }
+    &__logo{
+        @include head;
+        padding-top: 5px; 
+    }
+}
