@@ -1,12 +1,12 @@
 @import "utils/variables";
 @import "utils/mixin";
 @import"utils/keyframes";
-@import "base/font";
+@import "base/structure";
 @import "components/btn";
 @import "layouts/footer";
 @import "layouts/heading";
-@import "page/index";
-@import "components/loader";
-@import "page/restarants";
+@import "pages/index";
+@import "components/loading";
+@import "pages/restarants";
 @import "layouts/responsive1300";
 @import "layouts/responsive1024";

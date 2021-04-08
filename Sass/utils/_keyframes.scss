@@ -13,7 +13,7 @@
     50%{ transform: scale(0.3);}
     100%{ transform: scale(2);}
 }
-@keyframes loader {
+@keyframes loading {
     0%{ opacity:1 ;}
     100% {opacity: 0;}
 }

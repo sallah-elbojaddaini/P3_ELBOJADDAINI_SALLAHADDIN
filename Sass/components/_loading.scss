@@ -1,4 +1,4 @@
-.loader{
+.loading{
     opacity: 1;
     animation: loader 10ms ease-out 3000ms forwards;
     position: fixed;
@@ -6,20 +6,11 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    &__container{
+    &__box{
         transform: translateY(250px);
         position: absolute;
         opacity: 1;
-        &__title{
-            font-family: 'Shrikhand' , sans-serif;
-            color: $primary;
-            margin: 0;
-            text-shadow: 2px 5px 10px $box-shadox;
-            padding-bottom: 5px;
-            animation: title 1s ease-in 1.1s forwards;
-            font-size: 2em;
-        }
-        &__container2{
+        &__boxy{
             display: flex;
             flex-direction: row;
             height: 50px;

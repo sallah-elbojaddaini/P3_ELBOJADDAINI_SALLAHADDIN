@@ -535,7 +535,7 @@ body {
   transition: opacity 150ms ease-in-out;
 }
 
-.loader {
+.loading {
   opacity: 1;
   -webkit-animation: loader 10ms ease-out 3000ms forwards;
           animation: loader 10ms ease-out 3000ms forwards;
@@ -549,24 +549,14 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.loader__container {
+.loading__box {
   -webkit-transform: translateY(250px);
       -ms-transform: translateY(250px);
           transform: translateY(250px);
   position: absolute;
   opacity: 1;
 }
-.loader__container__title {
-  font-family: "Shrikhand", sans-serif;
-  color: #9356dc;
-  margin: 0;
-  text-shadow: 2px 5px 10px #c5c5c5;
-  padding-bottom: 5px;
-  -webkit-animation: title 1s ease-in 1.1s forwards;
-          animation: title 1s ease-in 1.1s forwards;
-  font-size: 2em;
-}
-.loader__container__container2 {
+.loading__box__boxy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -576,14 +566,14 @@ body {
           flex-direction: row;
   height: 50px;
 }
-.loader__container__container2__spinner {
+.loading__box__boxy__spinner {
   position: relative;
   width: 50px;
   height: 50px;
   border-radius: 100%;
   border: 8px solid rgba(153, 226, 208, 0.3);
 }
-.loader__container__container2__spinner::after {
+.loading__box__boxy__spinner::after {
   content: "";
   position: absolute;
   top: -8px;
@@ -597,7 +587,7 @@ body {
   -webkit-animation: spin 0.5s linear infinite;
           animation: spin 0.5s linear infinite;
 }
-.loader__container__container2__spinner::before {
+.loading__box__boxy__spinner::before {
   content: "";
   position: absolute;
   top: 5px;
@@ -611,7 +601,7 @@ body {
   -webkit-animation: spin 1s linear infinite;
           animation: spin 1s linear infinite;
 }
-.loader__container__container2__utensils {
+.loading__box__boxy__utensils {
   color: #353535;
   font-size: 3em;
   margin-left: 10px;
