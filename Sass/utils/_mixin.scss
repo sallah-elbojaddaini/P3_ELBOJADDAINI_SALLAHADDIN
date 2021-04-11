@@ -73,3 +73,13 @@
         transition: opacity 150ms ease-in-out;
     }
 }
+@mixin head{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     &--dimension{
+        height: 30px;
+        width: 165px;
+    }
+}

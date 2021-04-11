@@ -3,34 +3,32 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
 	<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="public/css/prefixed/style.css">
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 	<title>ohmyfood</title>
 </head>
 
 <body>
+	<!-- LOADER -->
 	<div class="loading">
-		<div class="loading__box">
-			<div class="loading__box__boxy">
-				<div class="loading__box__boxy__spinner"></div>
-				<i class="fas fa-utensils loading__box__boxy__utensils"></i>
-			</div>
-		</div>
+		<i class="fas fa-sync fa-spin"></i>
+		<p class="spinner">ohmyfood</p>
 	</div>
-	<div class="page">
+	<div class="main">
+	<!-- LOGO/SEARCH -->	
 		<header class="heading">
 			<div class="heading__logo">
-				<img class="heading__logo--size" src="pictures/ohmyfood.png" alt="logo">
+				<img class="heading__logo--dimension" src="pictures/ohmyfood.png" alt="Logo Ohmyfood">
 			</div>
 		</header>
+	<!-- PRESENTATION -->	
 		<section>
 			<div class="presentation">
-				<div class="presentation__map">
-					<i class="fas fa-map-marker-alt presentation__map__marker"></i>
-					<input class="presentation__map__search " type="text" name="texte" value="Paris, Belleville">
+				<div class="presentation__location">
+					<i class="fas fa-map-marker-alt presentation__location__marker"></i>
+					<input class="presentation__location__search " type="text" name="text" value="Paris, Belleville">
 				</div>
 				<div class="presentation__text">
 					<h1 class="presentation__text__title">Réservez le menu qui vous convient</h1>

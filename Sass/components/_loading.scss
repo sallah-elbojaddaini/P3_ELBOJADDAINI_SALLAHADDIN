@@ -1,59 +1,24 @@
 .loading{
-    opacity: 1;
-    animation: loader 10ms ease-out 3000ms forwards;
-    position: fixed;
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    &__box{
-        transform: translateY(250px);
-        position: absolute;
-        opacity: 1;
-        &__boxy{
-            display: flex;
-            flex-direction: row;
-            height: 50px;
-            &__spinner{
-                position: relative;
-                width: 50px;
-                height: 50px;
-                border-radius: 100%;
-                border: 8px solid rgba(153,226,208,0.3);
-                &::after{
-                    content: '';
-                    position: absolute;
-                    top:-8px;
-                    left: -8px;
-                    bottom: -8px;
-                    right: -8px;
-                    border-radius: 100%;
-                    border: 8px solid transparent;
-                    border-top-color: $tertiary;
-                    border-bottom-color: $tertiary;
-                    animation: spin 0.5s linear infinite;
-                }
-                &::before{
-                    content: '';
-                    position: absolute;
-                    top:5px;
-                    left: 5px;
-                    bottom: 5px;
-                    right: 5px;
-                    border-radius: 100%;
-                    border: 15px solid transparent;
-                    border-top-color: $secondary;
-                    border-bottom-color: $secondary;
-                    animation: spin 1s linear infinite;
-                }
-            }
-            &__utensils{
-                color: $footer-price;
-                font-size: 3em;
-                margin-left: 10px;
-                padding: 8px;
-                animation: utensils 2s ease-in-out forwards;
-            }
-        }
-    }
+	height: 100%;
+	display: flex;
+	position: fixed;	
+	flex-direction: column;
+	background-color: white;
+	font-family: 'Shrikhand', Arial, sans-serif;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	z-index: 10;
+
+	animation-duration: 3s;
+	animation-name: sync;
+    animation-fill-mode: forwards;
+    animation-delay: 100ms;
+	 &__spin{
+		-webkit-animation: fa-spin 2s linear 2;
+	 }
+	 &__spinner{
+		animation: logo 2s ease 400ms;
+	 }
 }

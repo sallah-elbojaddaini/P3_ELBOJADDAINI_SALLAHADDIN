@@ -1,7 +1,3 @@
-@keyframes spin{
-    0%{ transform: rotate(0deg); }
-    100%{ transform: rotate(360deg);}
-}
 @keyframes utensils{
     0%{ transform: translateX(100px);}
     33%{ transform: translateX(0px);}
@@ -13,15 +9,25 @@
     50%{ transform: scale(0.3);}
     100%{ transform: scale(2);}
 }
-@keyframes loading {
-    0%{ opacity:1 ;}
-    100% {opacity: 0;}
-}
-@keyframes page-visibility{
+@keyframes main-visibility{
     0%{opacity: 0; }
     100% {opacity: 1;}
 }
 @keyframes menu-opacity {
     0% { opacity: 0;}
     100% { opacity: 1;}
+}
+@keyframes sync
+{
+	0%,40%
+	{
+		opacity: 1;	
+	}
+
+	100%
+	{
+		opacity: 0;
+		z-index: -1
+
+	}
 }

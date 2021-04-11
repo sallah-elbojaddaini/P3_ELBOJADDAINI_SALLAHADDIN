@@ -1,6 +1,7 @@
 {
   "name": "projet3",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
@@ -8,6 +9,5 @@
   },
   "author": "",
   "license": "ISC",
-  "browserslist": "last 4 versions",
-  "description": ""
+  "browserslist": "last 4 versions"
 }

@@ -1,20 +1,20 @@
-.page{
-    opacity: 1;
-    animation: page-visibility 10ms ease-in 3000ms both ;
-    max-height: 100%;
-}
+// .main{
+//     opacity: 1;
+//     animation: main-visibility 10ms ease-in 3000ms both ;
+//     max-height: 100%;
+// }
 .presentation{
-    &__map{
+    &__location{
         height: 50px;
-        background-color: $back-map;
+        background-color: $colour-location;
         box-shadow:inset 0px 3px 2px #cfcfcf;
         padding-left: 60px;
         @include head;
         &:hover{
-            background: darken($color: $back-map, $amount: 10%);
+            background: darken($colour-location, $amount: 10%);
         }
         &:hover &__search{
-            background: darken($color: $back-map, $amount: 10%);
+            background: darken($colour-location, $amount: 10%);
         }
         &__marker{
             margin-right: 14px;
@@ -23,7 +23,7 @@
         &__search{
             border: none;
             border-width: 0px;
-            background-color: $back-map;
+            background-color: $colour-location;
             font-size: 1em;
             cursor: pointer;
         }
