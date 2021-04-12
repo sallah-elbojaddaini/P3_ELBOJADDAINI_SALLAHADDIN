@@ -127,41 +127,38 @@ body {
   font-size: 1em;
   cursor: pointer;
 }
-.presentation__location__search:focus {
-  outline: none;
-}
 .presentation__text {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  background-color: #f6f6f6;
+  background-color: #f7f7f7;
   height: 287px;
 }
 .presentation__text__title {
   display: flex;
   justify-content: center;
-  width: 61.1%;
-  margin: 0 0 20px 19.45%;
+  width: 60%;
+  margin: 0 0 20px 19%;
   padding-top: 38px;
 }
-.presentation__text__byline {
+.presentation__text__below {
   margin: 0 0 30px 0;
   font-weight: 100;
   font-size: 1.2em;
-  opacity: 0.55;
+  opacity: 0.65;
 }
 .presentation__text__btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 218px;
-  height: 50px;
+  width: 220px;
+  height: 60px;
   background: linear-gradient(to bottom right, #ff79da, #9356dc);
   color: white;
   text-decoration: none;
   border-radius: 2em;
-  margin-left: 8px;
-  box-shadow: 2px 5px 10px #c5c5c5;
+  margin-left: 10px;
+  box-shadow: 5px 5px 10px #adadad;
   position: relative;
   z-index: 1;
 }
@@ -179,7 +176,7 @@ body {
   z-index: -1;
   transition: opacity 250ms ease-in-out;
   background: linear-gradient(to bottom right, #ff93e1, #a16be0);
-  box-shadow: 2px 5px 10px #b8b8b8;
+  box-shadow: 5px 5px 10px #a0a0a0;
   border-radius: 2em;
 }
 
@@ -189,29 +186,25 @@ body {
 .operation__title {
   margin-bottom: 30px;
 }
-.operation__container {
-  flex-direction: column;
-}
-.operation__container__container2 {
+.operation__box__box2 {
   position: relative;
-  width: 89.3%;
+  width: 90%;
   display: flex;
   flex-direction: row;
 }
-.operation__container__container2__number {
+.operation__box__box2__number {
   color: white;
   display: flex;
   position: absolute;
-  top: 8px;
-  left: -2px;
+  top: 10px;
   border-radius: 100%;
   background-color: #9356dc;
-  width: 24px;
-  height: 24px;
+  width: 25px;
+  height: 25px;
   justify-content: center;
   align-items: center;
 }
-.operation__container__container2__button {
+.operation__box__box2__button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -221,17 +214,18 @@ body {
   height: 72px;
   width: 325px;
   border-radius: 1em;
-  box-shadow: 2px 5px 10px #c5c5c5;
+  box-shadow: 5px 5px 10px #adadad;
+  background-color: #e8e8e8;
 }
-.operation__container__container2__button--margin1 {
+.operation__box__box2__button--margin1 {
   margin-right: 29px;
-  opacity: 0.55;
+  opacity: 0.5;
 }
-.operation__container__container2__button--margin2 {
+.operation__box__box2__button--margin2 {
   margin-right: 23px;
-  opacity: 0.55;
+  opacity: 0.5;
 }
-.operation__container__container2__button2 {
+.operation__box__box2__button2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -241,10 +235,11 @@ body {
   height: 72px;
   width: 325px;
   border-radius: 1em;
-  box-shadow: 2px 5px 10px #c5c5c5;
+  box-shadow: 5px 5px 10px #adadad;
+  background-color: #e8e8e8;
   background-color: #f7f2fc;
 }
-.operation__container__container2__button2--margin3 {
+.operation__box__box2__button2--margin3 {
   margin-right: 20px;
   color: #9356dc;
 }
@@ -359,7 +354,7 @@ body {
 
 .section {
   position: relative;
-  background-color: #f6f6f6;
+  background-color: #f7f7f7;
 }
 .section__img {
   height: 255px;
@@ -374,7 +369,7 @@ body {
   justify-content: space-between;
   top: 205px;
   border-radius: 1.5em 1.5em 0 0;
-  background-color: #f6f6f6;
+  background-color: #f7f7f7;
   width: 100%;
 }
 .section__container__title {
@@ -422,7 +417,7 @@ body {
   flex-direction: row;
   background-color: white;
   border-radius: 1em;
-  box-shadow: 2px 5px 10px #c5c5c5;
+  box-shadow: 2px 5px 10px #adadad;
   width: 93%;
   margin: 0 0 14px 3.5%;
   cursor: pointer;
@@ -550,14 +545,14 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 218px;
-  height: 50px;
+  width: 220px;
+  height: 60px;
   background: linear-gradient(to bottom right, #ff79da, #9356dc);
   color: white;
   text-decoration: none;
   border-radius: 2em;
-  margin-left: 8px;
-  box-shadow: 2px 5px 10px #c5c5c5;
+  margin-left: 10px;
+  box-shadow: 5px 5px 10px #adadad;
   position: relative;
   z-index: 1;
 }
@@ -575,25 +570,20 @@ body {
   z-index: -1;
   transition: opacity 250ms ease-in-out;
   background: linear-gradient(to bottom right, #ff93e1, #a16be0);
-  box-shadow: 2px 5px 10px #b8b8b8;
+  box-shadow: 5px 5px 10px #a0a0a0;
   border-radius: 2em;
 }
 
 @media screen and (min-width: 1201px) {
-  body {
-    background: linear-gradient(to left, #99e2d0 0%, #f6f6f6 5%, #f6f6f6 95%, #99e2d0 100%);
-  }
-
   .heading__logo {
-    margin: 20px 0;
+    margin: 20px;
   }
-  .heading__logo--size {
+  .heading__logo--dimension {
     width: 246px;
     height: 43px;
   }
 
   .presentation__location {
-    box-shadow: none;
     width: 15%;
     margin-left: 42%;
     padding-left: 20px;
@@ -609,12 +599,6 @@ body {
   .presentation__location__marker {
     padding-left: 20px;
   }
-  .presentation__location__search {
-    background-color: transparent;
-  }
-  .presentation__text {
-    background-color: transparent;
-  }
   .presentation__text__btn {
     margin-top: 40px;
   }
@@ -625,20 +609,20 @@ body {
   .operation__title {
     text-align: center;
   }
-  .operation__container {
+  .operation__box {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 0px 11%;
   }
-  .operation__container__container2 {
+  .operation__box__box2 {
     width: 25%;
   }
-  .operation__container__container2__button {
-    background-color: #f6f6f6;
+  .operation__box__box2__button {
+    background-color: #f7f7f7;
     padding-right: 10px;
   }
-  .operation__container__container2__button2 {
+  .operation__box__box2__button2 {
     padding-right: 10px;
   }
 
@@ -662,7 +646,7 @@ body {
   }
   .restaurant__container__link__fig {
     height: 297px;
-    background-color: #f6f6f6;
+    background-color: #f7f7f7;
   }
   .restaurant__container__link__fig__img {
     height: 220px;
@@ -681,7 +665,7 @@ body {
     width: 50%;
     margin-left: 25%;
     border-radius: 0 0 1em 1em;
-    box-shadow: 3px 5px 5px #c5c5c5;
+    box-shadow: 3px 5px 5px #adadad;
     padding-bottom: 10px;
   }
   .section__menu {
@@ -711,20 +695,15 @@ body {
   }
 }
 @media screen and (min-width: 500px) and (max-width: 1200px) {
-  body {
-    background: linear-gradient(to left, #99e2d0 0%, #f6f6f6 5%, #f6f6f6 95%, #99e2d0 100%);
-  }
-
   .heading__logo {
-    margin: 20px 0;
+    margin: 20px;
   }
-  .heading__logo--size {
+  .heading__logo--dimension {
     width: 246px;
     height: 43px;
   }
 
   .presentation__location {
-    box-shadow: none;
     width: 28%;
     margin-left: 36%;
     padding-left: 20px;
@@ -738,11 +717,7 @@ body {
     background-color: #e6e6e6;
   }
   .presentation__location__search {
-    background-color: transparent;
     width: 80%;
-  }
-  .presentation__text {
-    background-color: transparent;
   }
   .presentation__text__btn {
     margin-top: 40px;
@@ -754,21 +729,21 @@ body {
   .operation__title {
     text-align: center;
   }
-  .operation__container {
+  .operation__box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0;
   }
-  .operation__container__container2 {
+  .operation__box__box2 {
     width: 45%;
     margin-left: 29%;
   }
-  .operation__container__container2__button {
-    background-color: #f6f6f6;
+  .operation__box__box2__button {
+    background-color: #f7f7f7;
     width: 100%;
   }
-  .operation__container__container2__button2 {
+  .operation__box__box2__button2 {
     width: 100%;
   }
 
@@ -791,7 +766,7 @@ body {
     margin-bottom: 40px;
   }
   .restaurant__container__link__fig {
-    background-color: #f6f6f6;
+    background-color: #f7f7f7;
     width: 100%;
   }
   .restaurant__container__link__fig__figcaptation__container {
@@ -808,7 +783,7 @@ body {
   }
   .section__container {
     border-radius: 0 0 1em 1em;
-    box-shadow: 3px 5px 5px #c5c5c5;
+    box-shadow: 3px 5px 5px #adadad;
     padding-bottom: 10px;
   }
   .section__menu {
