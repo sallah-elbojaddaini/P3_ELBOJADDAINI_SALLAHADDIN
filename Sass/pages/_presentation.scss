@@ -10,12 +10,12 @@
         box-shadow:inset 0px 3px 2px #cfcfcf;
         padding-left: 60px;
         @include head;
-        &:hover{
-            background: darken($colour-location, $amount: 10%);
-        }
-        &:hover &__search{
-            background: darken($colour-location, $amount: 10%);
-        }
+        // &:hover{
+        //     background: darken($colour-location, $amount: 10%);
+        // }
+        // &:hover &__search{
+        //     background: darken($colour-location, $amount: 10%);
+        // }
         &__marker{
             margin-right: 14px;
             padding-bottom: 6px;

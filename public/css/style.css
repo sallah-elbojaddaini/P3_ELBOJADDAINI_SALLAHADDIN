@@ -116,12 +116,6 @@ body {
   height: 30px;
   width: 165px;
 }
-.presentation__location:hover {
-  background: #cdcdcd;
-}
-.presentation__location:hover .presentation__location__search {
-  background: #cdcdcd;
-}
 .presentation__location__marker {
   margin-right: 14px;
   padding-bottom: 6px;
