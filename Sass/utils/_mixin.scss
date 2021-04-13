@@ -1,33 +1,32 @@
-@mixin index-thumbnail{
-    width: 94.4%;
-    height: 251px;
-    border-radius: 1em;
-    box-shadow: 2px 5px 10px #c5c5c5;
-    margin: 0 0 18px 0;
+@mixin index-fig{
+    width: 95%;
+    height: 250px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px #c5c5c5;
+    margin: 0 0 20px 0;
     position: relative;
 }
-
-@mixin index-picture{
+@mixin index-pic{
     width: 100%;
-    height: 174px;
+    height: 175px;
     object-fit: cover;
     border-radius: 1em 1em 0 0;
 }
 @mixin new{
-    width: 79px;
-    height: 29px;
+    width: 80px;
+    height: 25px;
     background-color: $tertiary;
     position: absolute;
-    top: 13px;
-    right: 11px;
+    top: 15px;
+    right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-    border-radius: 2px;
-    color:darken($color: $tertiary, $amount: 35%)
+    border-radius: 0.3rem;
+    color:#0fa781;
 }
-@mixin full-hearth{
+@mixin hearth{
     position: relative;
     z-index: 1;
     cursor: pointer;

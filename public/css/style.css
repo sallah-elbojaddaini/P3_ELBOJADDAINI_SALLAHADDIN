@@ -247,74 +247,73 @@ body {
 .restaurant {
   flex-direction: column;
   margin-left: 20px;
-  padding-bottom: 46px;
+  padding-bottom: 45px;
 }
-.restaurant__container__link {
+.restaurant__box__link {
   text-decoration: none;
   color: black;
   cursor: pointer;
 }
-.restaurant__container__link__fig {
-  width: 94.4%;
-  height: 251px;
-  border-radius: 1em;
-  box-shadow: 2px 5px 10px #c5c5c5;
-  margin: 0 0 18px 0;
+.restaurant__box__link__fig {
+  width: 95%;
+  height: 250px;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px #c5c5c5;
+  margin: 0 0 20px 0;
   position: relative;
 }
-.restaurant__container__link__fig__img {
+.restaurant__box__link__fig__img {
   width: 100%;
-  height: 174px;
+  height: 175px;
   object-fit: cover;
   border-radius: 1em 1em 0 0;
 }
-.restaurant__container__link__fig__new {
-  width: 79px;
-  height: 29px;
+.restaurant__box__link__fig__new {
+  width: 80px;
+  height: 25px;
   background-color: #99e2d0;
   position: absolute;
-  top: 13px;
-  right: 11px;
+  top: 15px;
+  right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
-  border-radius: 2px;
-  color: #2c9c81;
+  border-radius: 0.3rem;
+  color: #0fa781;
 }
-.restaurant__container__link__fig__figcaption {
+.restaurant__box__link__fig__figcaption {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 30.7%;
+  height: 30%;
 }
-.restaurant__container__link__fig__figcaption__container {
+.restaurant__box__link__fig__figcaption__box {
   margin-left: 20px;
   height: 100%;
   align-items: center;
 }
-.restaurant__container__link__fig__figcaption__container__title {
-  margin: 15px 0 7px 0;
-  font-size: 1em;
+.restaurant__box__link__fig__figcaption__box__title {
+  margin: 15px 0 5px 0;
 }
-.restaurant__container__link__fig__figcaption__container__byline {
+.restaurant__box__link__fig__figcaption__box__below {
   margin: 0;
 }
-.restaurant__container__link__fig__figcaption__container2 {
-  padding-bottom: 4%;
+.restaurant__box__link__fig__figcaption__box2 {
+  padding-bottom: 5%;
 }
-.restaurant__container__link__fig__figcaption__container2__heart {
+.restaurant__box__link__fig__figcaption__box2__heart {
   position: relative;
   z-index: 1;
   cursor: pointer;
   font-size: 21px;
   margin-right: 14px;
 }
-.restaurant__container__link__fig__figcaption__container2__heart:hover::after {
+.restaurant__box__link__fig__figcaption__box2__heart:hover::after {
   opacity: 1;
 }
-.restaurant__container__link__fig__figcaption__container2__heart::after {
+.restaurant__box__link__fig__figcaption__box2__heart::after {
   content: "";
   position: absolute;
   top: -1px;
@@ -633,22 +632,22 @@ body {
     text-align: center;
     margin-bottom: 50px;
   }
-  .restaurant__container {
+  .restaurant__box {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
   }
-  .restaurant__container__link {
+  .restaurant__box__link {
     width: 35%;
     margin: 0 0 40px 35px;
   }
-  .restaurant__container__link__fig {
+  .restaurant__box__link__fig {
     height: 297px;
     background-color: #f7f7f7;
   }
-  .restaurant__container__link__fig__img {
+  .restaurant__box__link__fig__img {
     height: 220px;
   }
 
@@ -754,22 +753,22 @@ body {
     text-align: center;
     margin-bottom: 50px;
   }
-  .restaurant__container {
+  .restaurant__box {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
   }
-  .restaurant__container__link {
+  .restaurant__box__link {
     width: 40%;
     margin-bottom: 40px;
   }
-  .restaurant__container__link__fig {
+  .restaurant__box__link__fig {
     background-color: #f7f7f7;
     width: 100%;
   }
-  .restaurant__container__link__fig__figcaptation__container {
+  .restaurant__box__link__fig__figcaptation__container {
     align-items: center;
   }
 

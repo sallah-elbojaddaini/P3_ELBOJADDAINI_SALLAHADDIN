@@ -89,16 +89,16 @@
 .restaurant{
     flex-direction: column;
     margin-left: 20px;
-    padding-bottom: 46px;
-    &__container{
+    padding-bottom: 45px;
+    &__box{
         &__link{
             text-decoration: none;
             color: black;
             cursor: pointer;
             &__fig{
-                @include index-thumbnail;
+                @include index-fig;
                 &__img{
-                    @include index-picture;
+                    @include index-pic;
                 }
                 &__new{
                     @include new;
@@ -108,24 +108,23 @@
                     flex-direction: row;
                     align-items: center;
                     justify-content: space-between;
-                    height: 30.7%;
+                    height: 30%;
                     
-                    &__container{
+                    &__box{
                         margin-left: 20px;
                         height: 100%;
                         align-items: center;
                         &__title{
-                            margin: 15px 0 7px 0;
-                            font-size: 1em;
+                            margin: 15px 0 5px 0;
                         }
-                        &__byline{
+                        &__below{
                             margin: 0;
                         }
                     }
-                    &__container2{
-                        padding-bottom: 4%;
+                    &__box2{
+                        padding-bottom: 5%;
                         &__heart{
-                            @include full-hearth;
+                            @include hearth;
                             font-size: 21px;
                             margin-right: 14px;                        
                         }
