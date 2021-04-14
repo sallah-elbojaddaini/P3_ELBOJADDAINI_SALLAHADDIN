@@ -85,7 +85,8 @@ body {
 .heading__arrow {
   transform: translateX(-64px);
   color: #3e3c3c;
-  font-size: 1.3em;
+  font-size: 1em;
+  padding-left: 30px;
 }
 .heading__logo {
   height: 60px;
@@ -315,7 +316,7 @@ body {
   position: absolute;
   left: -1px;
   opacity: 0;
-  font-size: 110%;
+  font-size: 100%;
   font-weight: bold;
   background: linear-gradient(to bottom, #9356dc 0%, #ff79da 100%);
   -webkit-background-clip: text;
@@ -352,7 +353,7 @@ body {
   background-color: #f7f7f7;
 }
 .section__img {
-  height: 255px;
+  height: 250px;
   width: 100%;
   object-fit: cover;
 }
@@ -363,19 +364,19 @@ body {
   align-items: center;
   justify-content: space-between;
   top: 205px;
-  border-radius: 1.5em 1.5em 0 0;
+  border-radius: 2rem 2rem 0 0;
   background-color: #f7f7f7;
   width: 100%;
 }
 .section__box__title {
   font-family: "Shrikhand", sans-serif;
-  padding-left: 19px;
+  padding-left: 22px;
   margin-bottom: 0;
-  font-size: 1.8em;
+  font-size: 1.7em;
 }
 .section__box__heart {
-  margin: 20px 36px 0 0;
-  font-size: 1.7em;
+  margin: 20px 35px 0 0;
+  font-size: 1.5em;
   position: relative;
   z-index: 1;
   cursor: pointer;
@@ -386,10 +387,9 @@ body {
 .section__box__heart::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: -1.5px;
+  left: -1px;
   opacity: 0;
-  font-size: 109%;
+  font-size: 100%;
   font-weight: bold;
   background: linear-gradient(to bottom, #9356dc 0%, #ff79da 100%);
   -webkit-background-clip: text;
@@ -400,19 +400,19 @@ body {
   width: 100%;
 }
 .section__menu__article__title {
-  margin: 30px 0 14px 23px;
+  margin: 30px 0 15px 20px;
   font-size: 1em;
   font-weight: 100;
   width: 40px;
   border-bottom: 3px solid #99e2d0;
-  padding-bottom: 6px;
+  padding-bottom: 5px;
 }
 .section__menu__article__box {
   display: flex;
   flex-direction: row;
   background-color: white;
   border-radius: 1em;
-  box-shadow: 2px 5px 10px #adadad;
+  box-shadow: 5px 5px 10px #adadad;
   width: 93%;
   margin: 0 0 14px 3.5%;
   cursor: pointer;
@@ -420,36 +420,6 @@ body {
   position: relative;
   overflow: hidden;
   animation: menu-opacity 1500ms forwards;
-}
-.section__menu__article__box--1 {
-  animation-delay: 150ms;
-}
-.section__menu__article__box--2 {
-  animation-delay: 300ms;
-}
-.section__menu__article__box--3 {
-  animation-delay: 450ms;
-}
-.section__menu__article__box--4 {
-  animation-delay: 600ms;
-}
-.section__menu__article__box--5 {
-  animation-delay: 750ms;
-}
-.section__menu__article__box--6 {
-  animation-delay: 900ms;
-}
-.section__menu__article__box--7 {
-  animation-delay: 1050ms;
-}
-.section__menu__article__box--8 {
-  animation-delay: 1200ms;
-}
-.section__menu__article__box--9 {
-  animation-delay: 1350ms;
-}
-.section__menu__article__box--10 {
-  animation-delay: 1500ms;
 }
 .section__menu__article__box:hover .section__menu__article__box__box2__title {
   width: 65%;
@@ -476,7 +446,7 @@ body {
 }
 .section__menu__article__box__box2 {
   width: 100%;
-  margin-left: 11px;
+  margin-left: 10px;
   flex-direction: column;
 }
 .section__menu__article__box__box2__title {
@@ -656,7 +626,7 @@ body {
     margin-left: 25%;
     border-radius: 1em;
   }
-  .section__container {
+  .section__box {
     width: 50%;
     margin-left: 25%;
     border-radius: 0 0 1em 1em;
@@ -776,7 +746,7 @@ body {
   .section__img {
     border-radius: 1em;
   }
-  .section__container {
+  .section__box {
     border-radius: 0 0 1em 1em;
     box-shadow: 3px 5px 5px #adadad;
     padding-bottom: 10px;
