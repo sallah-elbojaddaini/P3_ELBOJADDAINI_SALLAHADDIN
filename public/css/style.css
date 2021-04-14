@@ -55,39 +55,36 @@ body {
 }
 
 .footer {
-  background-color: #202020;
-  padding-bottom: 37px;
+  background-color: #3e3c3c;
+  padding-bottom: 35px;
 }
 .footer__logo {
-  fill: white;
-  height: 18px;
-  width: 100px;
-  margin: 20px 0 20px 20px;
+  height: 20px;
+  margin: 20px;
   filter: invert(1);
 }
-.footer__container__link {
-  margin: 0 0 9px 20px;
+.footer__box__link {
+  margin: 0 0 10px 20px;
   display: flex;
   flex-direction: row;
   text-decoration: none;
   color: white;
   align-items: center;
+  font-weight: 600;
 }
-.footer__container__link__utensils {
-  font-size: 0.85em;
-  margin-right: 12px;
+.footer__box__link__utensils {
+  margin-right: 17px;
 }
-.footer__container__link__helping {
-  font-size: 0.75em;
-  margin-right: 8px;
+.footer__box__link__helping {
+  margin-right: 10px;
 }
-.footer__container__link__byline {
+.footer__box__link__below {
   margin: 0;
 }
 
 .heading__arrow {
   transform: translateX(-64px);
-  color: #202020;
+  color: #3e3c3c;
   font-size: 1.3em;
 }
 .heading__logo {
@@ -237,7 +234,7 @@ body {
   border-radius: 1em;
   box-shadow: 5px 5px 10px #adadad;
   background-color: #e8e8e8;
-  background-color: #f7f2fc;
+  background-color: #e2e5fd;
 }
 .operation__box__box2__button2--margin3 {
   margin-right: 20px;
@@ -307,8 +304,8 @@ body {
   position: relative;
   z-index: 1;
   cursor: pointer;
-  font-size: 21px;
-  margin-right: 14px;
+  font-size: 20px;
+  margin-right: 15px;
 }
 .restaurant__box__link__fig__figcaption__box2__heart:hover::after {
   opacity: 1;
@@ -316,7 +313,6 @@ body {
 .restaurant__box__link__fig__figcaption__box2__heart::after {
   content: "";
   position: absolute;
-  top: -1px;
   left: -1px;
   opacity: 0;
   font-size: 110%;
@@ -360,7 +356,7 @@ body {
   width: 100%;
   object-fit: cover;
 }
-.section__container {
+.section__box {
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -371,23 +367,23 @@ body {
   background-color: #f7f7f7;
   width: 100%;
 }
-.section__container__title {
+.section__box__title {
   font-family: "Shrikhand", sans-serif;
   padding-left: 19px;
   margin-bottom: 0;
   font-size: 1.8em;
 }
-.section__container__heart {
+.section__box__heart {
   margin: 20px 36px 0 0;
   font-size: 1.7em;
   position: relative;
   z-index: 1;
   cursor: pointer;
 }
-.section__container__heart:hover::after {
+.section__box__heart:hover::after {
   opacity: 1;
 }
-.section__container__heart::after {
+.section__box__heart::after {
   content: "";
   position: absolute;
   top: 0;
@@ -411,7 +407,7 @@ body {
   border-bottom: 3px solid #99e2d0;
   padding-bottom: 6px;
 }
-.section__menu__article__container {
+.section__menu__article__box {
   display: flex;
   flex-direction: row;
   background-color: white;
@@ -425,70 +421,70 @@ body {
   overflow: hidden;
   animation: menu-opacity 1500ms forwards;
 }
-.section__menu__article__container--1 {
+.section__menu__article__box--1 {
   animation-delay: 150ms;
 }
-.section__menu__article__container--2 {
+.section__menu__article__box--2 {
   animation-delay: 300ms;
 }
-.section__menu__article__container--3 {
+.section__menu__article__box--3 {
   animation-delay: 450ms;
 }
-.section__menu__article__container--4 {
+.section__menu__article__box--4 {
   animation-delay: 600ms;
 }
-.section__menu__article__container--5 {
+.section__menu__article__box--5 {
   animation-delay: 750ms;
 }
-.section__menu__article__container--6 {
+.section__menu__article__box--6 {
   animation-delay: 900ms;
 }
-.section__menu__article__container--7 {
+.section__menu__article__box--7 {
   animation-delay: 1050ms;
 }
-.section__menu__article__container--8 {
+.section__menu__article__box--8 {
   animation-delay: 1200ms;
 }
-.section__menu__article__container--9 {
+.section__menu__article__box--9 {
   animation-delay: 1350ms;
 }
-.section__menu__article__container--10 {
+.section__menu__article__box--10 {
   animation-delay: 1500ms;
 }
-.section__menu__article__container:hover .section__menu__article__container__container2__title {
+.section__menu__article__box:hover .section__menu__article__box__box2__title {
   width: 65%;
   transition: 500ms;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
-.section__menu__article__container:hover .section__menu__article__container__container2__byline {
+.section__menu__article__box:hover .section__menu__article__box__box2__below {
   width: 65%;
   transition: 500ms;
 }
-.section__menu__article__container:hover .section__menu__article__container__container3 {
+.section__menu__article__box:hover .section__menu__article__box__box3 {
   transform: translateX(-58px);
   transition: transform 500ms;
 }
-.section__menu__article__container:hover .section__menu__article__container__container3__checkbox {
+.section__menu__article__box:hover .section__menu__article__box__box3__checkbox {
   opacity: 1;
   transition: opacity 10ms;
 }
-.section__menu__article__container:hover .section__menu__article__container__container3__checkbox__check {
+.section__menu__article__box:hover .section__menu__article__box__box3__checkbox__check {
   transform: rotate(360deg);
   transition: transform 500ms;
 }
-.section__menu__article__container__container2 {
+.section__menu__article__box__box2 {
   width: 100%;
   margin-left: 11px;
   flex-direction: column;
 }
-.section__menu__article__container__container2__title {
+.section__menu__article__box__box2__title {
   width: 85%;
   transition: 500ms;
   margin: 12px 0 0 0;
 }
-.section__menu__article__container__container2__byline {
+.section__menu__article__box__box2__below {
   width: 85%;
   transition: 500ms;
   height: 19px;
@@ -497,7 +493,7 @@ body {
   overflow: hidden;
   white-space: nowrap;
 }
-.section__menu__article__container__container3 {
+.section__menu__article__box__box3 {
   width: 124px;
   height: 100%;
   display: flex;
@@ -508,16 +504,16 @@ body {
   transform: translateX(0px);
   transition: transform 500ms;
 }
-.section__menu__article__container__container3__price {
+.section__menu__article__box__box3__price {
   background-color: white;
   border-radius: 0 1em 1em 0;
   margin-bottom: 14px;
   font-weight: bold;
   width: 22px;
   padding-right: 21px;
-  color: #202020;
+  color: #3e3c3c;
 }
-.section__menu__article__container__container3__checkbox {
+.section__menu__article__box__box3__checkbox {
   padding: 0 20px 0 19px;
   height: 100%;
   border-radius: 0 1em 1em 0;
@@ -526,7 +522,7 @@ body {
   align-items: center;
   opacity: 1;
 }
-.section__menu__article__container__container3__checkbox__check {
+.section__menu__article__box__box3__checkbox__check {
   border-radius: 100%;
   background-color: white;
   color: #99e2d0;
@@ -687,7 +683,7 @@ body {
     width: 150px;
     height: 30px;
   }
-  .footer__container {
+  .footer__box {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -799,7 +795,7 @@ body {
     width: 150px;
     height: 30px;
   }
-  .footer__container {
+  .footer__box {
     display: flex;
     flex-direction: row;
     justify-content: center;
