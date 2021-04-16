@@ -11,14 +11,14 @@
 	font-size: 2rem;
 	z-index: 10;
 
-	animation-duration: 3s;
+	animation-duration: 2000ms;
 	animation-name: sync;
     animation-fill-mode: forwards;
-    animation-delay: 100ms;
+    animation-delay: 400ms;
 	 &__spin{
 		-webkit-animation: fa-spin 2s linear 2;
 	 }
 	 &__spinner{
-		animation: logo 2s ease 400ms;
+		animation: logo 2s ease 600ms;
 	 }
 }
