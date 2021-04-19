@@ -43,12 +43,12 @@
                 opacity: 0;
                 position: relative;
                 overflow: hidden;
-                animation: menu-opacity $anim-duration forwards;
-                // @for $i from 1 through $num-box{
-                //     &--#{$i} {
-                //         animation-delay: $anim-delay * $i;
-                //     }
-                // }
+                animation: menu-opacity 1500ms forwards;
+                @for $i from 1 through $num-box{
+                    &--#{$i} {
+                        animation-delay: $anim-delay * $i;
+                    }
+                }
                 &:hover &__box2__title {
                     width: 65%;
                     transition: 500ms;
